@@ -1,122 +1,88 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-
-    <title>Veri Arinal - Academic Profile</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          rel="stylesheet">
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f5f7fa;
-            color: #333;
-        }
-
-        .hero {
-            background: #123456;
-            color: white;
-            padding: 65px 20px;
-            text-align: center;
-        }
-
-        .profile {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid white;
-        }
-
-        section {
-            padding: 35px 0;
-        }
-
-        .card {
-            border: none;
-            border-radius: 12px;
-            box-shadow: 0 3px 12px #ddd;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Profil akademik Veri Arinal, dosen dan peneliti bidang Sistem Informasi.">
+  <meta name="author" content="Veri Arinal">
+  <title>Veri Arinal, M.Kom. | Academic Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/app.js" defer></script>
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Lewati ke konten / Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="index.html"><span class="brand-mark">VA</span><span>Veri Arinal<span class="brand-dot">.</span></span></a>
+      <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a class="active" href="index.html" data-i18n="nav_home">Beranda</a>
+        <a href="about.html" data-i18n="nav_about">Profil</a>
+        <a href="research.html" data-i18n="nav_research">Penelitian</a>
+        <a href="publications.html" data-i18n="nav_publications">Publikasi</a>
+        <a href="teaching.html" data-i18n="nav_teaching">Pengajaran</a>
+        <a href="contact.html" data-i18n="nav_contact">Kontak</a>
+        <button class="lang-toggle" type="button" aria-label="Switch language">EN</button>
+      </div>
+    </nav>
+  </header>
 
-<div class="hero">
-    <img src="profile.jpg" class="profile">
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero_eyebrow">DOSEN • PENELITI • AKADEMISI</p>
+          <h1>Veri Arinal<span class="hero-comma">,</span><br><span class="accent">M.Kom.</span></h1>
+          <p class="hero-role" data-i18n="hero_role">Dosen Sistem Informasi | Peneliti Informatika</p>
+          <p class="hero-intro" data-i18n="hero_intro">Berfokus pada pengembangan sistem informasi, rekayasa perangkat lunak, sistem basis data, dan pemanfaatan teknologi untuk menyelesaikan persoalan nyata.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="about.html" data-i18n="hero_button_profile">Jelajahi profil <span>↗</span></a>
+            <a class="button button-secondary" href="contact.html" data-i18n="hero_button_contact">Hubungi saya</a>
+          </div>
+          <div class="hero-meta">
+            <span><i class="status-dot"></i><span data-i18n="hero_status">Dosen Tetap · STIKOM CKI</span></span>
+            <span data-i18n="hero_location">Jakarta, Indonesia</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <div class="portrait-placeholder"><span>VA</span><small>PROFILE PHOTO</small></div>
+          </div>
+          <div class="floating-card card-top"><span class="mini-label" data-i18n="card_role_label">JABATAN AKADEMIK</span><strong data-i18n="card_role_value">Lektor</strong></div>
+          <div class="floating-card card-bottom"><span class="mini-label" data-i18n="card_focus_label">AREA FOKUS</span><strong>Information Systems<br>& Applied Computing</strong></div>
+          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+        </div>
+      </div>
+    </section>
 
-    <h1 class="mt-3">Veri Arinal, M.Kom</h1>
+    <section class="quick-facts container">
+      <div class="fact"><strong>S3</strong><span data-i18n="fact_education">Studi Doktoral · Universitas Hasanuddin</span></div>
+      <div class="fact"><strong>2007</strong><span data-i18n="fact_master">Lulus Magister Ilmu Komputer</span></div>
+      <div class="fact"><strong>SI</strong><span data-i18n="fact_program">Program Studi Sistem Informasi</span></div>
+      <div class="fact"><strong>R&amp;D</strong><span data-i18n="fact_research">Research & Development</span></div>
+    </section>
 
-    <h5>Lecturer | Researcher | Information Systems</h5>
+    <section class="section container">
+      <div class="section-heading">
+        <p class="eyebrow" data-i18n="overview_eyebrow">RINGKASAN</p>
+        <h2 data-i18n="overview_title">Akademisi dengan orientasi solusi.</h2>
+        <p data-i18n="overview_text">Menghubungkan pendidikan, penelitian, dan pengembangan teknologi melalui pendekatan sistematis dan kolaboratif.</p>
+      </div>
+      <div class="feature-grid">
+        <a class="feature-card" href="about.html"><span class="feature-number">01</span><div><h3 data-i18n="feature_profile_title">Profil Akademik</h3><p data-i18n="feature_profile_text">Pendidikan, perjalanan karier, dan kompetensi profesional.</p></div><span class="arrow">↗</span></a>
+        <a class="feature-card" href="research.html"><span class="feature-number">02</span><div><h3 data-i18n="feature_research_title">Penelitian</h3><p data-i18n="feature_research_text">Minat riset, tema unggulan, dan arah pengembangan penelitian.</p></div><span class="arrow">↗</span></a>
+        <a class="feature-card" href="publications.html"><span class="feature-number">03</span><div><h3 data-i18n="feature_publications_title">Publikasi Ilmiah</h3><p data-i18n="feature_publications_text">Artikel jurnal, prosiding, dan karya ilmiah terpilih.</p></div><span class="arrow">↗</span></a>
+      </div>
+    </section>
 
-    <p>
-        STIKOM Cipta Karya Informatika
-    </p>
-</div>
+    <section class="quote-band">
+      <div class="container quote-inner"><span class="quote-mark">“</span><blockquote data-i18n="quote">Teknologi informasi menjadi bermakna ketika dirancang untuk menjawab kebutuhan manusia dan organisasi.</blockquote><span class="quote-caption">— Veri Arinal</span></div>
+    </section>
+  </main>
 
-<div class="container">
-
-<section>
-    <h2>About Me</h2>
-    <p>
-        Saya merupakan dosen tetap Program Studi Sistem Informasi
-        di STIKOM Cipta Karya Informatika.
-        Bidang keahlian meliputi Sistem Basis Data,
-        Sistem Informasi, Data Mining, dan Software Engineering.
-    </p>
-</section>
-
-<section>
-    <h2>Education</h2>
-    <ul>
-        <li>S3 - Universitas Hasanuddin (Sedang Berjalan)</li>
-        <li>S2 - Ilmu Komputer, Universitas Budi Luhur</li>
-        <li>S1 - [Nama Universitas]</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Research Interests</h2>
-    <ul>
-        <li>Information Systems</li>
-        <li>Database Systems</li>
-        <li>Decision Support Systems</li>
-        <li>Data Mining</li>
-        <li>Software Engineering</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Academic Career</h2>
-    <p>
-        Dosen Tetap - STIKOM Cipta Karya Informatika
-    </p>
-    <p>
-        Jabatan Akademik: Lektor
-    </p>
-</section>
-
-<section>
-    <h2>Publications</h2>
-    <p>
-        Daftar publikasi ilmiah dapat ditampilkan di sini.
-    </p>
-</section>
-
-<section>
-    <h2>Contact</h2>
-    <p>Email: [Email Anda]</p>
-    <p>Google Scholar: [Link Google Scholar]</p>
-    <p>SINTA: [Link SINTA]</p>
-    <p>ORCID: [Link ORCID]</p>
-</section>
-
-</div>
-
+  <footer class="site-footer"><div class="container footer-inner"><span>© <span id="year"></span> Veri Arinal. <span data-i18n="footer_rights">Hak cipta dilindungi.</span></span><span data-i18n="footer_note">Academic Portfolio · Built with GitHub Pages</span></div></footer>
 </body>
 </html>
