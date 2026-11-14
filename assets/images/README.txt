@@ -1,2 +1,2 @@
-Letakkan atau pertahankan foto profil di folder ini dengan nama profile.jpg.
-Path yang dipanggil index.html: assets/images/profile.jpg
+Letakkan foto profil profesional Anda di folder ini dengan nama profile.jpg.
+Foto akan tampil pada bagian hero halaman index.html.
